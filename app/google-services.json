@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "623674441713",
+    "firebase_url": "https://mynewfarm-fbb80.firebaseio.com",
+    "project_id": "mynewfarm-fbb80",
+    "storage_bucket": "mynewfarm-fbb80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623674441713:android:a39725e9c237cc6815ce50",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.mynewfarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623674441713-2uo9kjla8arrbcfqo9da4pffoh0shu88.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lenovo.mynewfarm",
+            "certificate_hash": "bc4ddd309ecaa8ea29bbf88cc35ec4c6e2a97781"
+          }
+        },
+        {
+          "client_id": "623674441713-qtm7bpqv2blhiv3pg84brscu74f35l17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcpyPIxSSflJIP4WpzsqZtE-Bg5Cgtn34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623674441713-qtm7bpqv2blhiv3pg84brscu74f35l17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
