@@ -1,4 +1,4 @@
-package com.example.lenovo.mynewfarm;
+package com.example.lenovo.mynewfarm.Buyers;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -12,9 +12,11 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.lenovo.mynewfarm.Admin.AdminCategoryActivity;
+import com.example.lenovo.mynewfarm.Admin.AdminHomeActivity;
+import com.example.lenovo.mynewfarm.Sellers.SellerProductCategoryActivity;
 import com.example.lenovo.mynewfarm.Model.Users;
 import com.example.lenovo.mynewfarm.Prevalent.Prevalent;
+import com.example.lenovo.mynewfarm.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -155,7 +157,7 @@ public class LoginActivity extends AppCompatActivity
                                 Toast.makeText(LoginActivity.this, "Welcome Admin, you are logged in Successfully...", Toast.LENGTH_SHORT).show();
                                 loadingBar.dismiss();
 
-                                Intent intent = new Intent(LoginActivity.this, AdminCategoryActivity.class);
+                                Intent intent = new Intent(LoginActivity.this,AdminHomeActivity.class);
                                 startActivity(intent);
                             }
                             else if (parentDbName.equals("Users"))

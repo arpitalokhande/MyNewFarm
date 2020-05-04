@@ -1,4 +1,4 @@
-package com.example.lenovo.mynewfarm;
+package com.example.lenovo.mynewfarm.Buyers;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.lenovo.mynewfarm.Prevalent.Prevalent;
+import com.example.lenovo.mynewfarm.R;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;

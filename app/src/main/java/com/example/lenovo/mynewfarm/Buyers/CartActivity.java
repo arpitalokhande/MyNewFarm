@@ -1,4 +1,4 @@
-package com.example.lenovo.mynewfarm;
+package com.example.lenovo.mynewfarm.Buyers;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import com.example.lenovo.mynewfarm.Model.Cart;
 import com.example.lenovo.mynewfarm.Prevalent.Prevalent;
+import com.example.lenovo.mynewfarm.R;
 import com.example.lenovo.mynewfarm.ViewHolder.CartViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;

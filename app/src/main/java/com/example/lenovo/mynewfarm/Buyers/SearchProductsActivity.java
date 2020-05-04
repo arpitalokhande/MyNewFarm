@@ -1,4 +1,4 @@
-package com.example.lenovo.mynewfarm;
+package com.example.lenovo.mynewfarm.Buyers;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.example.lenovo.mynewfarm.Model.Products;
+import com.example.lenovo.mynewfarm.R;
 import com.example.lenovo.mynewfarm.ViewHolder.ProductViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;

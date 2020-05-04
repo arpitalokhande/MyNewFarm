@@ -1,4 +1,4 @@
-package com.example.lenovo.mynewfarm;
+package com.example.lenovo.mynewfarm.Buyers;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -22,6 +22,8 @@ import android.widget.TextView;
 import com.example.lenovo.mynewfarm.Admin.AdminMaintainProductsActivity;
 import com.example.lenovo.mynewfarm.Model.Products;
 import com.example.lenovo.mynewfarm.Prevalent.Prevalent;
+import com.example.lenovo.mynewfarm.R;
+import com.example.lenovo.mynewfarm.Sellers.SellerHomeActivity;
 import com.example.lenovo.mynewfarm.ViewHolder.ProductViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
@@ -119,7 +121,7 @@ public class HomeActivity extends AppCompatActivity
 
         FirebaseRecyclerOptions<Products> options =
                 new FirebaseRecyclerOptions.Builder<Products>()
-                .setQuery(ProductsRef, Products.class)
+                .setQuery(ProductsRef.orderByChild("productState").equalTo("Approved"), Products.class)
                 .build();
 
 
@@ -249,6 +251,7 @@ public class HomeActivity extends AppCompatActivity
                 startActivity(intent);
                 finish();
             }
+
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
