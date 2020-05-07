@@ -52,8 +52,7 @@ public class SellerNewOrderActivity extends AppCompatActivity
                 new FirebaseRecyclerOptions.Builder<AdminOrders>()
                         .setQuery(ordersRef, AdminOrders.class)
                         .build();
-
-
+        
 
         FirebaseRecyclerAdapter<AdminOrders, AdminOrdersViewHolder> adapter =
                 new FirebaseRecyclerAdapter<AdminOrders, AdminOrdersViewHolder>(options) {
