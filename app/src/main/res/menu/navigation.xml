@@ -10,6 +10,10 @@
         android:id="@+id/navigation_add"
         android:icon="@drawable/add"
         android:title="Add Products" />
+    <item
+        android:id="@+id/navigation_new_orders"
+        android:icon="@drawable/orders"
+        android:title="New Orders" />
 
     <item
         android:id="@+id/navigation_logout"

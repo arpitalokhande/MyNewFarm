@@ -54,6 +54,10 @@ public class SellerHomeActivity extends AppCompatActivity
                     Intent intenthome = new Intent(SellerHomeActivity.this, SellerHomeActivity.class);
                     startActivity(intenthome);
                     return true;
+                case R.id.navigation_new_orders:
+                    Intent intentneworders = new Intent(SellerHomeActivity.this,SellerNewOrderActivity.class);
+                    startActivity(intentneworders);
+                    return true;
 
                 case R.id.navigation_add:
                     Intent intentnew = new Intent(SellerHomeActivity.this, SellerProductCategoryActivity.class);

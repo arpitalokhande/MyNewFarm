@@ -44,7 +44,9 @@
             android:name=".Sellers.SellerHomeActivity"
             android:label="@string/title_activity_seller_home" />
         <activity android:name=".Admin.AdminHomeActivity" />
-        <activity android:name=".Admin.AdminCheckNewProductsActivity"></activity>
+        <activity android:name=".Admin.AdminCheckNewProductsActivity" />
+        <activity android:name=".Sellers.SellerNewOrderActivity" />
+        <activity android:name=".Sellers.SellerUserProductsActivity"></activity>
     </application>
 
 </manifest>
